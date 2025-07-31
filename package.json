@@ -1,0 +1,33 @@
+{
+  "name": "fsjst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assoares383/fsjst.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/assoares383/fsjst/issues"
+  },
+  "homepage": "https://github.com/assoares383/fsjst#readme",
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "axios": "^1.11.0",
+    "express": "^5.1.0",
+    "jest": "^30.0.5",
+    "nodemon": "^3.1.10",
+    "pg-promise": "^11.15.0",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
