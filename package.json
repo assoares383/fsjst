@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx nodemon src/main.ts",
+    "test": "npx jest --runInBand",
+    "test:watch": "npx jest --watch"
   },
   "repository": {
     "type": "git",
