@@ -5,3 +5,7 @@ test("Deve criar uma coluna", () => {
   expect(column.name).toBe("Coluna A");
   expect(column.hasEstimative).toBeTruthy();
 });
+
+test("Nao deve criar uma coluna sem nome", () => {
+  expect(() => new Column("", true)).toThrow(new Error("Name is required"));
+});
