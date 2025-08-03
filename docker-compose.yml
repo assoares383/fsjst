@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  postgres:
+    container_name: pg-fsjst
+    image: postgres:latest
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: admin-postgres
+      POSTGRES_PASSWORD: admin-postgres@123
+      POSTGRES_DB: pg-fsjst
+      PGDATA: /data/postgres
+    volumes:
+      - ./data/pg:/data/postgres
